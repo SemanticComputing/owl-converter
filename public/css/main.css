@@ -1,0 +1,26 @@
+body {
+    margin: 1em;
+    font-family: "Nimbus Sans",Arial,sans-serif;
+}
+#logo {
+    float: left;
+    margin: 1em 0em 0em 1em;
+}
+#body {
+    margin: 2em 2em 2em 14em;
+    max-width: 50em;
+}
+h1 {
+    margin-bottom: 1em;
+    font-size: 1.6em;
+}
+td {
+    min-width: 6em;
+}
+#footer {
+    margin: 4em 0 0 0;
+}
+#footer img {
+    padding-right: 30px;
+    border: none;
+}
