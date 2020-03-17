@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
   cache,
   ws,
   specs2 % Test,
-  "net.sourceforge.owlapi" % "owlapi-distribution" % "4.1.4"
+  "net.sourceforge.owlapi" % "owlapi-distribution" % "latest.release"
 )
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
