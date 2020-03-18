@@ -88,7 +88,7 @@ class Application extends Controller {
                 println("found an HTTP URI: "+ onto.get)
                 //val holder = WS.url(onto.get)
                 implicit val context = play.api.libs.concurrent.Execution.Implicits.defaultContext
-                println("jouni")
+                println("test")
                 val resp = WS.url(onto.get).get.map { response => response }
                 resp onSuccess {
                   case response => println(response)
@@ -98,7 +98,7 @@ class Application extends Controller {
                 //resp.getresponse
                 //println(resp.complete)
                 //println(WS.url(onto.get).get.value)
-                println("jouni2")
+                println("test2")
                 
               }
             }
