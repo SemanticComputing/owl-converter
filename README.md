@@ -15,6 +15,10 @@ GET/POST parameters:
 
 ## Running in Docker
 
+Run (pulls first the image from Docker Hub): `docker run -p 9000:9000 -it --rm --name owl-converter secoresearch/owl-converter`
+
+Or build yourself and run:
+
 Build: `docker build -t owl-converter .`
 
 Run: ` docker run -p 9000:9000 -it --rm --name owl-converter owl-converter`
