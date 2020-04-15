@@ -1,3 +1,7 @@
+<!-- Default logging configuration for OWL Syntax Converter, using rolling file appender -->
+
+<!-- Not used in the Docker container, as there STDOUT is preferred, and Play Framework's default configuration is suitable for that. -->
+
 <configuration>
     
   <conversionRule conversionWord="coloredLevel" converterClass="play.api.Logger$ColoredLevel" />

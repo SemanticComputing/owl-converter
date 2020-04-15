@@ -21,7 +21,8 @@ ENV PATH_OWLCONVERTER "/owl-converter"
 WORKDIR "$PATH_OWLCONVERTER_SRC"
 COPY build.sbt ./
 COPY app ./app
-COPY conf ./conf
+COPY conf/application.conf ./conf/
+COPY conf/routes ./conf/
 COPY project ./project
 COPY public ./public
 RUN $SBT_HOME/bin/sbt dist
